@@ -1,131 +1,131 @@
 [
     {
-        "id": "abrigo-01",
+        "id": "laptop-01",
         "titulo": "Laptop HP 15",
         "imagen": "https://cdn1.coppel.com/images/catalog/pm/2099123-1.jpg",
         "categoria": {
             "nombre": "Laptops",
             "id": "laptops"
         },
-        "precio": 2000
+        "precio": 20000
     },
     {
-        "id": "abrigo-02",
-        "titulo": "Abrigo 02",
-        "imagen": "./img/abrigos/02.jpg",
+        "id": "laptop-02",
+        "titulo": "Laptop Huawei",
+        "imagen": "https://cdn1.coppel.com/images/catalog/pm/2995193-1.jpg",
         "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+            "nombre": "Laptops",
+            "id": "laptops"
         },
-        "precio": 1000
+        "precio": 25000
     },
     {
-        "id": "abrigo-03",
+        "id": "laptop-03",
         "titulo": "Abrigo 03",
-        "imagen": "./img/abrigos/03.jpg",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_846924-MLU73538835017_122023-O.webp",
         "categoria": {
-            "nombre": "Abrigos",
+            "nombre": "Laptops",
             "id": "abrigos"
         },
         "precio": 1000
     },
     {
-        "id": "abrigo-04",
+        "id": "laptop-04",
         "titulo": "Abrigo 04",
         "imagen": "./img/abrigos/04.jpg",
         "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+            "nombre": "Laptops",
+            "id": "laptops"
         },
         "precio": 1000
     },
     {
-        "id": "abrigo-05",
+        "id": "laptop-05",
         "titulo": "Abrigo 05",
         "imagen": "./img/abrigos/05.jpg",
         "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+            "nombre": "Laptops",
+            "id": "laptops"
         },
         "precio": 1000
     },
     {
-        "id": "camiseta-01",
+        "id": "pc-01",
         "titulo": "Camiseta 01",
         "imagen": "./img/camisetas/01.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "PCs",
+            "id": "pcs"
         },
         "precio": 1000
     },
     {
-        "id": "camiseta-02",
+        "id": "pc-02",
         "titulo": "Camiseta 02",
         "imagen": "./img/camisetas/02.jpg",
         "categoria": {
             "nombre": "Camisetas",
-            "id": "camisetas"
+            "id": "pcs"
         },
         "precio": 1000
     },
     {
-        "id": "camiseta-03",
+        "id": "pc-03",
         "titulo": "Camiseta 03",
         "imagen": "./img/camisetas/03.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "PCs",
+            "id": "pcs"
         },
         "precio": 1000
     },
     {
-        "id": "camiseta-04",
+        "id": "pc-04",
         "titulo": "Camiseta 04",
         "imagen": "./img/camisetas/04.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "PCs",
+            "id": "pcs"
         },
         "precio": 1000
     },
     {
-        "id": "camiseta-05",
+        "id": "pc-05",
         "titulo": "Camiseta 05",
         "imagen": "./img/camisetas/05.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "PCs",
+            "id": "pcs"
         },
         "precio": 1000
     },
     {
-        "id": "camiseta-06",
+        "id": "pc-06",
         "titulo": "Camiseta 06",
         "imagen": "./img/camisetas/06.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "PCs",
+            "id": "pcs"
         },
         "precio": 1000
     },
     {
-        "id": "camiseta-07",
+        "id": "pc-07",
         "titulo": "Camiseta 07",
         "imagen": "./img/camisetas/07.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "PCs",
+            "id": "pcs"
         },
         "precio": 1000
     },
     {
-        "id": "camiseta-08",
+        "id": "pc-08",
         "titulo": "Camiseta 08",
         "imagen": "./img/camisetas/08.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "PCs",
+            "id": "pcs"
         },
         "precio": 1000
     },
