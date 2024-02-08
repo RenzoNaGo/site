@@ -21,162 +21,162 @@
     },
     {
         "id": "laptop-03",
-        "titulo": "Abrigo 03",
+        "titulo": "Laptop Asus",
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_846924-MLU73538835017_122023-O.webp",
         "categoria": {
             "nombre": "Laptops",
             "id": "abrigos"
         },
-        "precio": 1000
+        "precio": 7400
     },
     {
         "id": "laptop-04",
-        "titulo": "Abrigo 04",
-        "imagen": "./img/abrigos/04.jpg",
+        "titulo": "Laptop gamer Machenike",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_928521-MLA71126267587_082023-O.webp",
         "categoria": {
             "nombre": "Laptops",
             "id": "laptops"
         },
-        "precio": 1000
+        "precio": 29074
     },
     {
         "id": "laptop-05",
-        "titulo": "Abrigo 05",
-        "imagen": "./img/abrigos/05.jpg",
+        "titulo": "Laptop Lenovo",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_751818-MLA73541039153_122023-O.webp",
         "categoria": {
             "nombre": "Laptops",
             "id": "laptops"
         },
-        "precio": 1000
+        "precio": 12000
     },
     {
         "id": "pc-01",
-        "titulo": "Camiseta 01",
-        "imagen": "./img/camisetas/01.jpg",
+        "titulo": "Equipo AMD Pro",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_617940-MLM72925731045_112023-O.webp",
         "categoria": {
             "nombre": "PCs",
             "id": "pcs"
         },
-        "precio": 1000
+        "precio": 3400
     },
     {
         "id": "pc-02",
-        "titulo": "Camiseta 02",
-        "imagen": "./img/camisetas/02.jpg",
+        "titulo": "PC Gaymer Ryzen",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_863739-MLM73952092625_012024-O.webp",
         "categoria": {
             "nombre": "Camisetas",
             "id": "pcs"
         },
-        "precio": 1000
+        "precio": 7590
     },
     {
         "id": "pc-03",
-        "titulo": "Camiseta 03",
-        "imagen": "./img/camisetas/03.jpg",
+        "titulo": "Xtreme PC AMD",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_776196-MLM72058924599_102023-O.webp",
         "categoria": {
             "nombre": "PCs",
             "id": "pcs"
         },
-        "precio": 1000
+        "precio": 4305
     },
     {
         "id": "pc-04",
-        "titulo": "Camiseta 04",
-        "imagen": "./img/camisetas/04.jpg",
+        "titulo": "Xtreme Pc Amd Radeon Ryzen 5",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_798828-MLM73220242582_122023-O.webp",
         "categoria": {
             "nombre": "PCs",
             "id": "pcs"
         },
-        "precio": 1000
+        "precio": 6700
     },
     {
         "id": "pc-05",
-        "titulo": "Camiseta 05",
-        "imagen": "./img/camisetas/05.jpg",
+        "titulo": "Cpue Completo Dell Optiplex 9020",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_864870-MLM70916440233_082023-O.webp",
         "categoria": {
             "nombre": "PCs",
             "id": "pcs"
         },
-        "precio": 1000
+        "precio": 3150
     },
     {
         "id": "pc-06",
-        "titulo": "Camiseta 06",
-        "imagen": "./img/camisetas/06.jpg",
+        "titulo": "Dell Optiplex 7040 Core I5",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_993959-MLM51992661648_102022-O.webp",
         "categoria": {
             "nombre": "PCs",
             "id": "pcs"
         },
-        "precio": 1000
+        "precio": 2660
     },
     {
         "id": "pc-07",
-        "titulo": "Camiseta 07",
-        "imagen": "./img/camisetas/07.jpg",
+        "titulo": "Pc Mini Dell Optiplex",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_736559-MLM72144786847_102023-O.webp",
         "categoria": {
             "nombre": "PCs",
             "id": "pcs"
         },
-        "precio": 1000
+        "precio": 3883
     },
     {
         "id": "pc-08",
-        "titulo": "Camiseta 08",
-        "imagen": "./img/camisetas/08.jpg",
+        "titulo": "Xtreme Pc Radeon Vega Ryzen 5",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_713345-MLM72482374725_102023-O.webp",
         "categoria": {
             "nombre": "PCs",
             "id": "pcs"
         },
-        "precio": 1000
+        "precio": 5560
     },
     {
-        "id": "pantalon-01",
-        "titulo": "Pantalón 01",
-        "imagen": "./img/pantalones/01.jpg",
+        "id": "telefono-01",
+        "titulo": "Cubot Note 21 Dual SIM 128 GB",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_783086-MLA72239655891_102023-O.webp",
         "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
+            "nombre": "Telefonos",
+            "id": "telefonos"
         },
-        "precio": 1000
+        "precio": 1870
     },
     {
-        "id": "pantalon-02",
-        "titulo": "Pantalón 02",
-        "imagen": "./img/pantalones/02.jpg",
+        "id": "telefono-02",
+        "titulo": "Realme 11 Pro 5g 8g - 256g",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_939960-MLA73041053700_112023-O.webp",
         "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
+            "nombre": "Telefonos",
+            "id": "telefonos"
         },
-        "precio": 1000
+        "precio": 5249
     },
     {
-        "id": "pantalon-03",
-        "titulo": "Pantalón 03",
-        "imagen": "./img/pantalones/03.jpg",
+        "id": "telefono-03",
+        "titulo": "Xiaomi Redmi Note 12 128gb 4gb",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_905763-CBT69768167415_062023-O.webp",
         "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
+            "nombre": "Telefonos",
+            "id": "telefonos"
         },
-        "precio": 1000
+        "precio": 2932
     },
     {
-        "id": "pantalon-04",
-        "titulo": "Pantalón 04",
-        "imagen": "./img/pantalones/04.jpg",
+        "id": "telefono-04",
+        "titulo": "Apple iPhone 15 Pro (128 GB)",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_878826-MLA71783168396_092023-O.webp",
         "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
+            "nombre": "Telefonos",
+            "id": "telefonos"
         },
-        "precio": 1000
+        "precio": 23999
     },
     {
-        "id": "pantalon-05",
-        "titulo": "Pantalón 05",
-        "imagen": "./img/pantalones/05.jpg",
+        "id": "telefono-05",
+        "titulo": "Samsung Galaxy M54 5G",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_750555-MLA54935051905_042023-O.webp",
         "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
+            "nombre": "Telefonos",
+            "id": "telefonos"
         },
-        "precio": 1000
+        "precio": 7999
     }
 ]
