@@ -2,7 +2,7 @@
     {
         "id": "abrigo-01",
         "titulo": "Abrigo",
-        "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com.mx%2FAbrigos-Hombres-Chaqueta-Rodilla-Hombres%2Fdp%2FB09JVTX1JL&psig=AOvVaw1nJztc5D02Hqs4YPlAN4aW&ust=1707458818641000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjXmfWJm4QDFQAAAAAdAAAAABAE",
+        "imagen": "https://media.revistagq.com/photos/61a6077b1fbb6b279e45a715/16:9/w_1600,c_limit/abrigos-hombre.jpg",
         "categoria": {
             "nombre": "Abrigos",
             "id": "abrigos"
