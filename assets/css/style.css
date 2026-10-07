@@ -337,7 +337,7 @@ a {
 
 .profile-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 18px;
 }
 
@@ -429,8 +429,33 @@ a {
   font-size: 0.85rem;
 }
 
+.project-icon {
+  width: 72px;
+  height: 72px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--gray-bg);
+  color: var(--brand);
+  font-size: 0.9rem;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+.project-icon-iacow {
+  color: var(--navy);
+}
+
+.project-icon-new {
+  color: var(--gray);
+  font-size: 1.5rem;
+}
+
 .project-card h3 {
-  margin: 26px 0 0;
+  margin: 20px 0 0;
   color: var(--navy);
   font-size: 1.6rem;
   letter-spacing: -0.03em;
@@ -440,6 +465,11 @@ a {
   margin: 12px 0 20px;
   color: var(--muted);
   font-size: 0.94rem;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
 }
 
 .project-tags,
@@ -555,9 +585,12 @@ a {
     border-bottom: 1px solid var(--line);
   }
 
-  .project-grid,
-  .profile-grid {
+  .project-grid {
     grid-template-columns: 1fr;
+  }
+
+  .profile-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .project-card {
@@ -604,6 +637,10 @@ a {
 
   .hero h1 {
     font-size: clamp(2.7rem, 14vw, 4.4rem);
+  }
+
+  .profile-grid {
+    grid-template-columns: 1fr;
   }
 
   .hero-panel {
