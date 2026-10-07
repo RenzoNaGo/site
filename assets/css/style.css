@@ -430,13 +430,14 @@ a {
 }
 
 .project-icon {
-  width: 78px;
-  height: 78px;
+  width: 82px;
+  height: 82px;
   margin-top: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  flex: 0 0 82px;
   border: 1px solid var(--line);
   border-radius: 16px;
   background: var(--gray-bg);
@@ -447,21 +448,23 @@ a {
 }
 
 .project-icon-logo {
-  padding: 10px;
+  padding: 9px;
   background: var(--white);
 }
 
-.project-icon-logo img {
+.project-card-logo {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
   object-position: center;
+  flex: 0 0 auto;
 }
 
 .project-icon-iacow {
-  padding: 8px;
-}
+  padding: 7px;}
 
 .project-icon-new {
   color: var(--gray);
