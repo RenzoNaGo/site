@@ -1073,3 +1073,245 @@ a {
     flex-direction: column;
   }
 }
+
+
+/* JCB case study */
+.case-logo-wide {
+  object-fit: contain;
+  padding: 10px;
+  background: var(--white);
+}
+
+.jcb-module-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.jcb-module-grid .evidence-card-wide {
+  grid-column: span 2;
+}
+
+.workflow-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 20px;
+  margin-bottom: 22px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--white);
+  color: var(--navy);
+  font-size: 0.83rem;
+  font-weight: 800;
+}
+
+.workflow-strip b {
+  color: var(--gray);
+  font-size: 1.1rem;
+}
+
+.jcb-mobile-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.jcb-mobile-grid .evidence-card:nth-child(1),
+.jcb-mobile-grid .evidence-card:nth-child(5) {
+  grid-column: span 2;
+}
+
+.jcb-dashboard-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.dashboard-card-featured {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.dashboard-card-wide {
+  grid-column: span 2;
+}
+
+.support-highlight {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 22px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--white);
+  overflow: hidden;
+}
+
+.support-highlight > div {
+  padding: 20px;
+  border-right: 1px solid var(--line);
+}
+
+.support-highlight > div:last-child {
+  border-right: 0;
+}
+
+.support-highlight strong {
+  display: block;
+  color: var(--navy);
+  font-size: 0.95rem;
+}
+
+.support-highlight span {
+  display: block;
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.evidence-media {
+  position: relative;
+  cursor: zoom-in;
+}
+
+.evidence-media::after {
+  content: "↗";
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(1, 19, 57, 0.78);
+  color: var(--white);
+  font-size: 0.9rem;
+  font-weight: 900;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.evidence-card:hover .evidence-media::after {
+  opacity: 1;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  background: rgba(1, 13, 33, 0.9);
+}
+
+.lightbox.is-open {
+  display: flex;
+}
+
+.lightbox-content {
+  width: min(1200px, 100%);
+  max-height: calc(100vh - 64px);
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+}
+
+.lightbox-content img {
+  display: block;
+  max-width: 100%;
+  max-height: calc(100vh - 120px);
+  object-fit: contain;
+  border-radius: 10px;
+  background: var(--white);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.34);
+}
+
+.lightbox-content p {
+  max-width: 900px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.84);
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.lightbox-close {
+  position: fixed;
+  top: 18px;
+  right: 22px;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--white);
+  font-size: 1.7rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.lightbox-close:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+@media (max-width: 1050px) {
+  .jcb-module-grid,
+  .jcb-mobile-grid,
+  .jcb-dashboard-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .jcb-module-grid .evidence-card-wide,
+  .dashboard-card-featured,
+  .dashboard-card-wide {
+    grid-column: span 2;
+  }
+
+  .jcb-mobile-grid .evidence-card:nth-child(1),
+  .jcb-mobile-grid .evidence-card:nth-child(5) {
+    grid-column: span 1;
+  }
+
+  .support-highlight {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .support-highlight > div:nth-child(2) {
+    border-right: 0;
+  }
+
+  .support-highlight > div:nth-child(-n + 2) {
+    border-bottom: 1px solid var(--line);
+  }
+}
+
+@media (max-width: 680px) {
+  .jcb-module-grid,
+  .jcb-mobile-grid,
+  .jcb-dashboard-grid,
+  .support-highlight {
+    grid-template-columns: 1fr;
+  }
+
+  .jcb-module-grid .evidence-card-wide,
+  .dashboard-card-featured,
+  .dashboard-card-wide {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .support-highlight > div {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .support-highlight > div:last-child {
+    border-bottom: 0;
+  }
+
+  .workflow-strip {
+    justify-content: center;
+  }
+
+  .lightbox {
+    padding: 18px;
+  }
+}
