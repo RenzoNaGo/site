@@ -1338,3 +1338,12 @@ a {
     padding: 18px;
   }
 }
+
+
+/* Mobile: stack participation content instead of forcing a narrow two-column layout. */
+@media (max-width: 680px) {
+  .case-overview-grid {
+    grid-template-columns: 1fr;
+    gap: 42px;
+  }
+}
