@@ -9,39 +9,57 @@
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="../index.html">RenzoNaGo</a>
-      <nav aria-label="Navegación principal">
-        <a href="../index.html">Inicio</a>
-        <a href="./index.html">Proyectos</a>
+      <a class="brand" href="../index.html" aria-label="Inicio">RN<span>G</span></a>
+      <nav class="nav-links" aria-label="Navegación principal">
+        <a class="nav-link" href="../index.html">Inicio</a>
+        <a class="nav-link active" href="./index.html">Proyectos</a>
       </nav>
     </div>
   </header>
 
   <main>
     <section class="section container">
-      <p class="eyebrow">PORTAFOLIO</p>
-      <h1>Proyectos</h1>
-      <p class="hero-text">
-        Documentación de sistemas, proyectos personales y desarrollos técnicos.
-      </p>
+      <div class="section-heading">
+        <p class="eyebrow">PORTAFOLIO</p>
+        <h1>Proyectos</h1>
+        <p class="hero-text">
+          Documentación de sistemas, proyectos personales y desarrollos técnicos.
+        </p>
+      </div>
 
-      <div class="project-grid" style="margin-top: 34px;">
-        <a class="project-card" href="./jcb/">
-          <span class="project-status">Experiencia profesional</span>
+      <div class="project-grid project-list-grid">
+        <a class="project-card project-card-featured" href="./jcb/">
+          <div class="project-card-top">
+            <span class="project-status">Experiencia profesional</span>
+            <span class="project-index">01</span>
+          </div>
+          <div class="project-icon project-icon-logo" aria-hidden="true">
+            <img class="project-card-logo" src="./jcb/icono/JCB-Logo.png" alt="" />
+          </div>
           <h3>ERP JCB AZTECA</h3>
           <p>ERP, servicios técnicos, inventario, migración de datos, dashboards, APIs y producción.</p>
           <span class="project-link">Abrir →</span>
         </a>
 
         <a class="project-card" href="./iacow/">
-          <span class="project-status">Proyecto destacado</span>
+          <div class="project-card-top">
+            <span class="project-status">Proyecto destacado</span>
+            <span class="project-index">02</span>
+          </div>
+          <div class="project-icon project-icon-logo project-icon-iacow" aria-hidden="true">
+            <img class="project-card-logo" src="./iacow/icono/icon_login.jpg" alt="" />
+          </div>
           <h3>IACOW</h3>
           <p>Django, PostgreSQL, gestión ganadera y procesamiento de imágenes.</p>
           <span class="project-link">Abrir →</span>
         </a>
 
         <a class="project-card project-card-muted" href="./template/">
-          <span class="project-status">Plantilla</span>
+          <div class="project-card-top">
+            <span class="project-status">En desarrollo</span>
+            <span class="project-index">03</span>
+          </div>
+          <div class="project-icon project-icon-new" aria-hidden="true"><span>+</span></div>
           <h3>Nuevo proyecto</h3>
           <p>Base para futuros casos de estudio y proyectos personales.</p>
           <span class="project-link">Abrir →</span>
