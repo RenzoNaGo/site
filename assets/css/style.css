@@ -430,14 +430,14 @@ a {
 }
 
 .project-icon {
-  width: 82px;
+  width: 150px;
   height: 82px;
-  margin-top: 24px;
+  margin: 24px auto 0;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  flex: 0 0 82px;
+  flex: 0 0 150px;
   border: 1px solid var(--line);
   border-radius: 16px;
   background: var(--gray-bg);
@@ -448,14 +448,14 @@ a {
 }
 
 .project-icon-logo {
-  padding: 9px;
+  padding: 7px 10px;
   background: var(--white);
 }
 
 .project-card-logo {
   display: block;
   width: auto;
-  height: auto;
+  height: 100%;
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
@@ -464,7 +464,8 @@ a {
 }
 
 .project-icon-iacow {
-  padding: 7px;}
+  padding: 5px 10px;
+}
 
 .project-icon-new {
   color: var(--gray);
