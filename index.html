@@ -22,7 +22,10 @@
   </header>
 
   <main>
-    <section class="hero container">
+    <div class="network-bg" aria-hidden="true">
+      <canvas id="network-canvas"></canvas>
+    </div>
+    <section class="hero container" data-reveal>
       <div class="hero-content">
         <p class="eyebrow">INGENIERO EN SISTEMAS COMPUTACIONALES</p>
         <h1>Renzo Narváez González</h1>
@@ -40,18 +43,28 @@
         </div>
       </div>
 
-      <aside class="hero-panel" aria-label="Resumen profesional">
-        <p class="panel-label">ENFOQUE</p>
-        <div class="focus-list">
-          <div><strong>ERP</strong><span>Sistemas empresariales</span></div>
-          <div><strong>DATA</strong><span>Migración y analítica</span></div>
-          <div><strong>API</strong><span>Integración y automatización</span></div>
-          <div><strong>IA</strong><span>IA aplicada al desarrollo</span></div>
+      <aside class="hero-panel hero-console" aria-label="Resumen profesional">
+        <div class="console-top">
+          <span><i></i><i></i><i></i></span>
+          <small>renzo@dev:~/portfolio</small>
+          <b>ONLINE</b>
+        </div>
+        <div class="console-screen">
+          <div class="console-command">$ whoami</div>
+          <div class="console-output">full-stack engineer</div>
+          <div class="console-command">$ focus --active</div>
+          <div class="console-grid">
+            <div><strong>ERP</strong><span>enterprise systems</span></div>
+            <div><strong>DATA</strong><span>migration & analytics</span></div>
+            <div><strong>API</strong><span>integration & automation</span></div>
+            <div><strong>AI</strong><span>assisted engineering</span></div>
+          </div>
+          <div class="console-command console-cursor">$ build --real-problems<span>_</span></div>
         </div>
       </aside>
     </section>
 
-    <section class="metrics container" aria-label="Resultados destacados">
+    <section class="metrics container" aria-label="Resultados destacados" data-reveal>
       <div class="metric">
         <strong>+200K</strong>
         <span>registros procesados</span>
@@ -70,7 +83,7 @@
       </div>
     </section>
 
-    <section id="perfil" class="section container">
+    <section id="perfil" class="section container" data-reveal>
       <div class="section-heading">
         <p class="eyebrow">PERFIL</p>
         <h2>Software orientado a problemas reales</h2>
@@ -81,22 +94,22 @@
       </div>
 
       <div class="profile-grid">
-        <article class="profile-card">
+        <article class="profile-card" data-reveal>
           <span class="card-number">01</span>
           <h3>Analizar</h3>
           <p>Entender el proceso operativo antes de convertirlo en una solución de software.</p>
         </article>
-        <article class="profile-card">
+        <article class="profile-card" data-reveal>
           <span class="card-number">02</span>
           <h3>Construir</h3>
           <p>Desarrollar módulos, integraciones y soluciones web para necesidades reales.</p>
         </article>
-        <article class="profile-card">
+        <article class="profile-card" data-reveal>
           <span class="card-number">03</span>
           <h3>Acompañar</h3>
           <p>Brindar soporte técnico y capacitación, trabajando directamente con los usuarios.</p>
         </article>
-        <article class="profile-card">
+        <article class="profile-card" data-reveal>
           <span class="card-number">04</span>
           <h3>Optimizar</h3>
           <p>Resolver incidencias y mejorar continuamente los procesos a partir del uso real.</p>
@@ -104,7 +117,7 @@
       </div>
     </section>
 
-    <section class="section section-soft" id="proyectos">
+    <section class="section section-soft" id="proyectos" data-reveal>
       <div class="container">
         <div class="section-heading section-heading-row">
           <div>
@@ -115,7 +128,7 @@
         </div>
 
         <div class="project-grid">
-          <a class="project-card project-card-featured" href="./projects/jcb/">
+          <a data-reveal class="project-card project-card-featured" href="./projects/jcb/">
             <div class="project-card-top">
               <span class="project-status">Experiencia profesional</span>
               <span class="project-index">01</span>
@@ -149,7 +162,7 @@
             <span class="project-link">Ver caso de estudio →</span>
           </a>
 
-          <a class="project-card project-card-muted" href="./projects/template/">
+          <a data-reveal class="project-card project-card-muted" href="./projects/template/">
             <div class="project-card-top">
               <span class="project-status">En desarrollo</span>
               <span class="project-index">03</span>
@@ -169,33 +182,33 @@
       </div>
     </section>
 
-    <section class="section container">
+    <section class="section container" data-reveal>
       <div class="section-heading">
         <p class="eyebrow">STACK</p>
         <h2>Tecnologías y herramientas</h2>
       </div>
 
       <div class="stack-grid">
-        <div class="stack-group">
+        <div class="stack-group" data-reveal>
           <span class="stack-label">Frontend</span>
           <div class="stack-items"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>TypeScript</span><span>Bootstrap</span></div>
         </div>
-        <div class="stack-group">
+        <div class="stack-group" data-reveal>
           <span class="stack-label">Backend</span>
           <div class="stack-items"><span>PHP</span><span>Python</span><span>Django</span><span>Laravel</span><span>Phalcon</span><span>REST/JSON</span></div>
         </div>
-        <div class="stack-group">
+        <div class="stack-group" data-reveal>
           <span class="stack-label">Datos</span>
           <div class="stack-items"><span>MySQL</span><span>PostgreSQL</span><span>SQLite</span><span>MariaDB</span><span>XML</span></div>
         </div>
-        <div class="stack-group">
+        <div class="stack-group" data-reveal>
           <span class="stack-label">Herramientas</span>
           <div class="stack-items"><span>Git</span><span>GitHub</span><span>PDF</span><span>Automatización</span><span>IA aplicada</span></div>
         </div>
       </div>
     </section>
 
-    <section id="contacto" class="section contact-section">
+    <section id="contacto" class="section contact-section" data-reveal>
       <div class="container contact">
         <div>
           <p class="eyebrow">CONTACTO</p>
