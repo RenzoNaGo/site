@@ -3,58 +3,256 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IACOW | Renzo Narváez González</title>
+  <meta name="description" content="Caso de estudio del proyecto IACOW — Sistema de Gestión Ganadera desarrollado por Renzo Narváez González.">
+  <title>IACOW | Sistema de Gestión Ganadera</title>
   <link rel="stylesheet" href="../../assets/css/style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="../../index.html">RenzoNaGo</a>
-      <nav aria-label="Navegación principal">
-        <a href="../../index.html">Inicio</a>
-        <a href="../index.html">Proyectos</a>
+      <a class="brand" href="../../index.html" aria-label="Inicio">RN<span>G</span></a>
+      <nav class="nav-links" aria-label="Navegación principal">
+        <a class="nav-link" href="../../index.html">Inicio</a>
+        <a class="nav-link active" href="../index.html">Proyectos</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="section container">
-      <p class="eyebrow">PROYECTO DESTACADO · IACOW</p>
-      <h1>Sistema de Gestión Ganadera</h1>
-      <p class="hero-text">
-        Página reservada para documentar el problema, solución, arquitectura,
-        procesamiento de imágenes, resultados y evidencia del proyecto.
-      </p>
+    <section class="project-hero container">
+      <div class="project-hero-main">
+        <a class="back-link" href="../index.html">← Volver a proyectos</a>
+        <div class="case-title-row">
+          <img class="case-logo" src="./icono/icon_login.jpg" alt="Identidad visual del sistema IACOW">
+          <div>
+            <p class="eyebrow">PROYECTO DESTACADO · 2024</p>
+            <h1>IACOW</h1>
+            <p class="case-subtitle">Sistema de Gestión Ganadera</p>
+          </div>
+        </div>
 
-      <div class="section-heading" style="margin-top: 56px;">
-        <h2>Contenido por incorporar</h2>
+        <p class="case-intro">
+          Sistema web desarrollado para la Asociación Ganadera Local de Macuspana
+          para la gestión de socios y la comparación visual de diseños de fierros ganaderos.
+        </p>
+
+        <div class="case-meta">
+          <span>Python</span>
+          <span>Django</span>
+          <span>PostgreSQL</span>
+          <span>Procesamiento de imágenes</span>
+        </div>
+      </div>
+
+      <aside class="case-result-card">
+        <p class="case-result-label">RESULTADOS</p>
+        <strong>+2,000</strong>
+        <span>diseños procesados</span>
+        <div class="result-divider"></div>
+        <strong>Etapa nacional</strong>
+        <span>INNOVATECNM 2024</span>
+      </aside>
+    </section>
+
+    <section class="section container">
+      <div class="case-overview-grid">
+        <article class="case-overview">
+          <p class="eyebrow">DESCRIPCIÓN</p>
+          <h2>Una solución para digitalizar la gestión y comparación de fierros ganaderos.</h2>
+          <p>
+            Desarrollé e implementé el sistema para centralizar la información de socios,
+            automatizar tareas administrativas y facilitar la identificación de diseños
+            mediante procesamiento y comparación visual de imágenes.
+          </p>
+        </article>
+
+        <aside class="case-facts">
+          <div>
+            <span>Organización</span>
+            <strong>Asociación Ganadera Local de Macuspana</strong>
+          </div>
+          <div>
+            <span>Ubicación</span>
+            <strong>Macuspana, Tabasco</strong>
+          </div>
+          <div>
+            <span>Periodo</span>
+            <strong>Enero – Noviembre 2024</strong>
+          </div>
+          <div>
+            <span>Rol</span>
+            <strong>Desarrollador Full Stack</strong>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">FUNCIONALIDADES</p>
+          <h2>Componentes principales</h2>
+        </div>
+
+        <div class="capability-grid">
+          <article class="capability-card">
+            <span class="card-number">01</span>
+            <h3>Gestión de socios</h3>
+            <p>Administración de información de socios y procesos asociados dentro del sistema.</p>
+          </article>
+          <article class="capability-card">
+            <span class="card-number">02</span>
+            <h3>Comparación visual</h3>
+            <p>Procesamiento y comparación de diseños de fierros ganaderos para apoyar su identificación.</p>
+          </article>
+          <article class="capability-card">
+            <span class="card-number">03</span>
+            <h3>Credenciales</h3>
+            <p>Generación automatizada de credenciales y soporte al flujo de impresión.</p>
+          </article>
+          <article class="capability-card">
+            <span class="card-number">04</span>
+            <h3>Automatización</h3>
+            <p>Digitalización de tareas administrativas para reducir trabajo repetitivo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">EVIDENCIA · SISTEMA</p>
+        <h2>Interfaz y funcionalidades</h2>
         <p>
-          Aquí iremos agregando imágenes, capturas del sistema, flujo funcional,
-          tecnologías y documentación del proyecto.
+          Capturas representativas del sistema y de las herramientas construidas durante el proyecto.
         </p>
       </div>
 
-      <div class="project-grid">
-        <div class="project-card">
-          <h3>Stack</h3>
-          <p>Python, Django y PostgreSQL.</p>
+      <div class="evidence-grid evidence-grid-system">
+        <figure class="evidence-card evidence-card-featured">
+          <div class="evidence-media"><img src="./evidence/Pantalla principal del sistema.png" alt="Pantalla principal del sistema IACOW" loading="lazy"></div>
+          <figcaption><strong>Panel principal del sistema</strong><span>Vista general de la aplicación y sus principales accesos.</span></figcaption>
+        </figure>
+
+        <figure class="evidence-card">
+          <div class="evidence-media"><img src="./evidence/dministración de socios ganaderos.png" alt="Administración de socios ganaderos" loading="lazy"></div>
+          <figcaption><strong>Administración de socios</strong><span>Gestión de la información de los socios ganaderos.</span></figcaption>
+        </figure>
+
+        <figure class="evidence-card">
+          <div class="evidence-media"><img src="./evidence/Importador masivo de diseño de fierros ganaderos.png" alt="Importador masivo de diseños de fierros ganaderos" loading="lazy"></div>
+          <figcaption><strong>Importador masivo de diseños</strong><span>Herramienta para procesar grandes volúmenes de diseños de fierros ganaderos.</span></figcaption>
+        </figure>
+
+        <figure class="evidence-card evidence-card-wide">
+          <div class="evidence-media"><img src="./evidence/Motor de comparador de diseño de fierros ganaderos.png" alt="Motor de comparación de diseños de fierros ganaderos" loading="lazy"></div>
+          <figcaption><strong>Motor de comparación visual</strong><span>Componente central para el procesamiento y comparación de diseños.</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">EVIDENCIA · CREDENCIALES</p>
+          <h2>Diseño, generación e impresión</h2>
+          <p>Flujo construido para automatizar la creación y producción de credenciales.</p>
         </div>
-        <div class="project-card">
-          <h3>Procesamiento</h3>
-          <p>Más de 2,000 diseños procesados para comparación visual.</p>
-        </div>
-        <div class="project-card">
-          <h3>Reconocimiento</h3>
-          <p>Proyecto reconocido en la etapa nacional de INNOVATECNM 2024.</p>
+
+        <div class="evidence-grid evidence-grid-three">
+          <figure class="evidence-card">
+            <div class="evidence-media"><img src="./evidence/UI para el diseño de credenciales (2).png" alt="Interfaz para diseño de credenciales" loading="lazy"></div>
+            <figcaption><strong>Diseño de credenciales</strong><span>Interfaz para configurar y generar credenciales.</span></figcaption>
+          </figure>
+
+          <figure class="evidence-card">
+            <div class="evidence-media"><img src="./evidence/Configuración de la impresora de credenciales.jpeg" alt="Configuración de la impresora de credenciales" loading="lazy"></div>
+            <figcaption><strong>Configuración de impresión</strong><span>Preparación del flujo para la impresión de credenciales.</span></figcaption>
+          </figure>
+
+          <figure class="evidence-card">
+            <div class="evidence-media"><img src="./evidence/Capacitando en la creación de credenciales.jpeg" alt="Capacitación en creación de credenciales" loading="lazy"></div>
+            <figcaption><strong>Capacitación a usuarios</strong><span>Transferencia de conocimiento para el uso del módulo de credenciales.</span></figcaption>
+          </figure>
         </div>
       </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">EVIDENCIA · IMPLEMENTACIÓN</p>
+        <h2>Capacitación y adopción</h2>
+        <p>
+          El proyecto no se limitó al desarrollo: también participé en la explicación,
+          capacitación y acompañamiento para el uso de la solución.
+        </p>
+      </div>
+
+      <div class="evidence-grid evidence-grid-four">
+        <figure class="evidence-card">
+          <div class="evidence-media"><img src="./evidence/Capacitando en la Asociación Ganadera.jpeg" alt="Capacitación en la Asociación Ganadera" loading="lazy"></div>
+          <figcaption><strong>Capacitación en la asociación</strong><span>Presentación y acompañamiento a usuarios.</span></figcaption>
+        </figure>
+
+        <figure class="evidence-card">
+          <div class="evidence-media"><img src="./evidence/Mas evidencia de capacitación donde aparezco yo.jpeg" alt="Evidencia adicional de capacitación" loading="lazy"></div>
+          <figcaption><strong>Acompañamiento a usuarios</strong><span>Sesión de capacitación y resolución de dudas.</span></figcaption>
+        </figure>
+
+        <figure class="evidence-card">
+          <div class="evidence-media"><img src="./evidence/Evidencia con el director general del técnologico de méxico, el jefe de todos los tecs en méxico.jpeg" alt="Presentación del proyecto ante autoridades educativas" loading="lazy"></div>
+          <figcaption><strong>Presentación del proyecto</strong><span>Interacción y presentación durante la etapa nacional.</span></figcaption>
+        </figure>
+
+        <figure class="evidence-card">
+          <div class="evidence-media"><img src="./evidence/Presentación del speech del proyecto en la nacional.jpeg" alt="Presentación del proyecto IACOW en la etapa nacional" loading="lazy"></div>
+          <figcaption><strong>Presentación del proyecto</strong><span>Exposición del proyecto durante la etapa nacional.</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">EVIDENCIA · RECONOCIMIENTO</p>
+          <h2>Etapa nacional de INNOVATECNM 2024</h2>
+          <p>
+            Evidencia de la participación y presentación de IACOW en la etapa nacional.
+          </p>
+        </div>
+
+        <div class="recognition-grid">
+          <figure class="evidence-card recognition-photo">
+            <div class="evidence-media"><img src="./evidence/Stand del proyecto en la nacional.jpeg" alt="Stand del proyecto IACOW en la etapa nacional" loading="lazy"></div>
+            <figcaption><strong>Stand del proyecto</strong><span>Presentación de IACOW durante la etapa nacional.</span></figcaption>
+          </figure>
+
+          <figure class="evidence-card recognition-certificate">
+            <div class="evidence-media"><img src="./evidence/Certificado de Concurso de la etapa nacional.jpeg" alt="Certificado de participación en la etapa nacional de INNOVATECNM 2024" loading="lazy"></div>
+            <figcaption><strong>Constancia de participación</strong><span>Reconocimiento por la participación con IACOW en la etapa nacional.</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container case-close">
+      <div>
+        <p class="eyebrow">RESULTADO</p>
+        <h2>De una necesidad local a una solución presentada a nivel nacional.</h2>
+        <p>
+          IACOW integró gestión de información, procesamiento de imágenes,
+          automatización y experiencia de usuario en una sola solución web,
+          acompañada por capacitación y presentación del proyecto.
+        </p>
+      </div>
+      <a class="button button-primary" href="../index.html">← Volver a proyectos</a>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container">
+    <div class="container footer-inner">
       <span>© <span id="year"></span> Renzo Narváez González</span>
-      <a href="../index.html">Volver a proyectos</a>
+      <span>IACOW · Caso de estudio</span>
     </div>
   </footer>
 
