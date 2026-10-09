@@ -1653,10 +1653,12 @@ body::before {
 .profile-card h3,
 .project-card h3,
 .stack-label,
+.project-hero h1,
 .case-overview h2,
 .case-facts strong,
 .capability-card h3,
-.case-close h2 {
+.case-close h2,
+.case-result-card strong {
   color: #F2F7FB;
 }
 
