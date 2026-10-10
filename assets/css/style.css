@@ -1493,6 +1493,19 @@ body::before {
   background: rgba(21, 39, 60, 0.82);
 }
 
+/* Contact actions on the dark theme */
+.contact-actions .button-secondary {
+  color: #D9E7F3;
+  background: rgba(15, 29, 45, 0.92);
+  border-color: rgba(126, 166, 202, 0.22);
+}
+
+.contact-actions .button-secondary:hover {
+  color: #FFFFFF;
+  background: rgba(30, 56, 82, 0.96);
+  border-color: rgba(100, 164, 225, 0.52);
+}
+
 .hero-panel {
   padding: 0;
   border: 1px solid rgba(126, 166, 202, 0.18);
