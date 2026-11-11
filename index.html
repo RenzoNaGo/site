@@ -3,222 +3,301 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portafolio profesional de Renzo Narváez González — Ingeniero en Sistemas Computacionales y Desarrollador Full Stack.">
-  <meta name="theme-color" content="#26588B">
-  <title>Renzo Narváez González | Portafolio</title>
+  <meta name="description" content="Renzo Narváez González: ingeniero en Sistemas Computacionales especializado en desarrollo Full Stack, sistemas ERP, automatización de procesos y datos. Casos de estudio JCB Azteca e IACOW.">
+  <meta name="theme-color" content="#07111F">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Renzo Narváez González | Ingeniería de software y automatización">
+  <meta property="og:description" content="Software empresarial, procesos operativos, datos y experiencias de desarrollo reales: JCB Azteca e IACOW.">
+  <meta property="og:url" content="https://renzonago.github.io/site/">
+  <title>Renzo Narváez González | Ingeniería de Software, ERP y Automatización</title>
+  <link rel="canonical" href="https://renzonago.github.io/site/">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <noscript><style>[data-reveal]{opacity:1;transform:none;filter:none}</style></noscript>
 </head>
-<body>
+<body class="home-page">
+  <a class="skip-link" href="#contenido">Ir al contenido</a>
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="./index.html" aria-label="Inicio">RN<span>G</span></a>
+      <a class="brand" href="./index.html" aria-label="Renzo Narváez, inicio">RN<span>G</span></a>
       <nav class="nav-links" aria-label="Navegación principal">
-        <a class="nav-link active" href="./index.html">Inicio</a>
-        <a class="nav-link" href="./projects/index.html">Proyectos</a>
+        <a class="nav-link active" href="./index.html" aria-current="page">Inicio</a>
+        <a class="nav-link" href="#proyectos">Proyectos</a>
         <a class="nav-link" href="#perfil">Perfil</a>
         <a class="nav-link" href="#contacto">Contacto</a>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main id="contenido">
     <div class="network-bg" aria-hidden="true">
       <canvas id="network-canvas"></canvas>
     </div>
-    <section class="hero container" data-reveal>
-      <div class="hero-content">
-        <p class="eyebrow">INGENIERO EN SISTEMAS COMPUTACIONALES</p>
-        <h1>Renzo Narváez González</h1>
-        <p class="hero-role">Desarrollador Full Stack</p>
-        <p class="hero-text">
-          Desarrollo soluciones web orientadas a digitalizar procesos,
-          automatizar operaciones y convertir datos en herramientas útiles para el negocio.
-        </p>
 
+    <section class="hero container" aria-labelledby="inicio-titulo" data-reveal>
+      <div class="hero-content">
+        <p class="eyebrow">INGENIERÍA DE SOFTWARE · ERP · AUTOMATIZACIÓN</p>
+        <h1 id="inicio-titulo">Renzo Narváez <span class="hero-name-accent">González</span></h1>
+        <p class="hero-role">Ingeniero en Sistemas Computacionales · Desarrollador Full Stack</p>
+        <p class="hero-lead">Convierto procesos empresariales en software que funciona en la operación real.</p>
+        <p class="hero-text">
+          Analizo necesidades, desarrollo soluciones, integro información y acompaño a sus usuarios.
+          Mi experiencia incluye sistemas ERP en producción, digitalización de mantenimientos,
+          integridad de inventarios, migración de datos y automatización de reportes.
+        </p>
+        <div class="hero-credentials" aria-label="Áreas de experiencia">
+          <span>ERP y procesos</span>
+          <span>Datos e integraciones</span>
+          <span>Soporte y capacitación</span>
+        </div>
         <div class="hero-actions">
-          <a class="button button-primary" href="./projects/index.html">Explorar proyectos</a>
+          <a class="button button-primary" href="#proyectos">Explorar casos de estudio ↓</a>
           <a class="button button-secondary" href="./assets/docs/CV-Renzo-Narvaez-Gonzalez.pdf" download>Descargar CV ↓</a>
-          <a class="button button-secondary" href="https://www.linkedin.com/in/renzo-narvaez" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
-          <a class="button button-secondary" href="https://github.com/RenzoNaGo" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a class="button button-secondary" href="#contacto">Contactar</a>
+        </div>
+        <div class="hero-social" aria-label="Perfiles profesionales">
+          <a href="https://www.linkedin.com/in/renzo-narvaez" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://github.com/RenzoNaGo" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <span aria-hidden="true">·</span>
+          <span>Villahermosa, Tabasco, México</span>
         </div>
       </div>
 
-      <aside class="hero-panel hero-console" aria-label="Resumen profesional">
+      <aside class="hero-panel hero-console" aria-label="Especialidades de mi experiencia">
         <div class="console-top">
-          <span><i></i><i></i><i></i></span>
-          <small>renzo@dev:~/portfolio</small>
-          <b>ONLINE</b>
+          <span aria-hidden="true"><i></i><i></i><i></i></span>
+          <small>renzo@engineering:~/experience</small>
+          <b>ENFOQUE</b>
         </div>
         <div class="console-screen">
-          <div class="console-command">$ whoami</div>
-          <div class="console-output">full-stack engineer</div>
-          <div class="console-command">$ focus --active</div>
+          <div class="console-command">$ cat experiencia.md</div>
+          <div class="console-output">Software · Datos · Usuarios</div>
+          <div class="console-command">$ areas --aplicadas</div>
           <div class="console-grid">
-            <div><strong>ERP</strong><span>enterprise systems</span></div>
-            <div><strong>DATA</strong><span>migration & analytics</span></div>
-            <div><strong>API</strong><span>integration & automation</span></div>
-            <div><strong>AI</strong><span>assisted engineering</span></div>
+            <div><strong>ERP</strong><span>Servicios, ventas y administración</span></div>
+            <div><strong>DATA</strong><span>SQL, migración y trazabilidad</span></div>
+            <div><strong>AUTOMATION</strong><span>Flujos, integraciones y PDF</span></div>
+            <div><strong>SUPPORT</strong><span>Incidencias y capacitación</span></div>
           </div>
-          <div class="console-command console-cursor">$ build --real-problems<span>_</span></div>
+          <div class="console-command console-cursor">$ analizar → construir → mejorar<span>_</span></div>
         </div>
       </aside>
     </section>
 
-    <section class="metrics container" aria-label="Resultados destacados" data-reveal>
+    <section class="metrics container" aria-label="Resultados representativos" data-reveal>
       <div class="metric">
-        <strong>+200K</strong>
-        <span>registros procesados</span>
+        <strong>+200,000</strong>
+        <span>registros empresariales depurados y migrados</span>
+        <small class="metric-note">ERP JCB AZTECA</small>
       </div>
       <div class="metric">
-        <strong>2–3 h</strong>
-        <span>proceso operativo reducido</span>
+        <strong>1 botón</strong>
+        <span>para generar el reporte PDF de mantenimiento</span>
+        <small class="metric-note">AUTOMATIZACIÓN</small>
+      </div>
+      <div class="metric">
+        <strong>+2,000</strong>
+        <span>diseños de fierros ganaderos procesados</span>
+        <small class="metric-note">IACOW</small>
       </div>
       <div class="metric">
         <strong>ERP</strong>
-        <span>software en producción</span>
-      </div>
-      <div class="metric">
-        <strong>IACOW</strong>
-        <span>etapa nacional 2024</span>
+        <span>desarrollo, soporte y evolución de software en producción</span>
+        <small class="metric-note">EXPERIENCIA REAL</small>
       </div>
     </section>
 
-    <section id="perfil" class="section container" data-reveal>
-      <div class="section-heading">
-        <p class="eyebrow">PERFIL</p>
-        <h2>Software orientado a problemas reales</h2>
-        <p>
-          Mi experiencia combina desarrollo Full Stack, análisis de procesos,
-          datos empresariales, automatización y trabajo directo con usuarios.
-        </p>
-      </div>
-
-      <div class="profile-grid">
-        <article class="profile-card" data-reveal>
-          <span class="card-number">01</span>
-          <h3>Analizar</h3>
-          <p>Entender el proceso operativo antes de convertirlo en una solución de software.</p>
-        </article>
-        <article class="profile-card" data-reveal>
-          <span class="card-number">02</span>
-          <h3>Construir</h3>
-          <p>Desarrollar módulos, integraciones y soluciones web para necesidades reales.</p>
-        </article>
-        <article class="profile-card" data-reveal>
-          <span class="card-number">03</span>
-          <h3>Acompañar</h3>
-          <p>Brindar soporte técnico y capacitación, trabajando directamente con los usuarios.</p>
-        </article>
-        <article class="profile-card" data-reveal>
-          <span class="card-number">04</span>
-          <h3>Optimizar</h3>
-          <p>Resolver incidencias y mejorar continuamente los procesos a partir del uso real.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section section-soft" id="proyectos" data-reveal>
-      <div class="container">
-        <div class="section-heading section-heading-row">
-          <div>
-            <p class="eyebrow">PROYECTOS DESTACADOS</p>
-            <h2>Trabajo documentado</h2>
-          </div>
-          <a class="text-link" href="./projects/index.html">Ver todos →</a>
+    <section class="section container impact-section" aria-labelledby="impacto-titulo" data-reveal>
+      <div class="impact-layout">
+        <div>
+          <p class="eyebrow">DEL PROBLEMA AL RESULTADO</p>
+          <h2 id="impacto-titulo">La automatización importa cuando cambia la manera de trabajar.</h2>
+          <p>
+            En JCB Azteca, los reportes de mantenimiento requerían reunir información
+            de <strong>WhatsApp y otras herramientas</strong>. Trabajé en integrar
+            los datos del servicio, la agenda, las evidencias y las refacciones
+            para producir el informe desde el propio ERP.
+          </p>
+          <a class="text-link" href="./projects/jcb/">Conocer el proceso completo →</a>
         </div>
+        <div class="impact-panel">
+          <p class="impact-panel-title">CASO REAL · MANTENIMIENTOS</p>
+          <div class="impact-transformation">
+            <div class="impact-step">
+              <small>Antes</small>
+              <strong>Información dispersa</strong>
+              <p>Mensajes, fotografías y datos reunidos en varias herramientas para elaborar reportes.</p>
+            </div>
+            <span class="impact-arrow" aria-hidden="true">→</span>
+            <div class="impact-step impact-step-after">
+              <small>Después</small>
+              <strong>Flujo integrado en el ERP</strong>
+              <p>Servicio documentado con evidencias y reporte PDF generado desde un botón.</p>
+            </div>
+          </div>
+          <p class="impact-caption">Análisis de proceso · Lógica de negocio · Automatización documental</p>
+        </div>
+      </div>
+    </section>
 
-        <div class="project-grid">
-          <a data-reveal class="project-card project-card-featured" href="./projects/jcb/">
+    <section id="perfil" class="section section-soft" aria-labelledby="perfil-titulo">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">CÓMO TRABAJO</p>
+          <h2 id="perfil-titulo">Ingeniería que no termina al entregar el código.</h2>
+          <p>
+            Mi participación combina desarrollo técnico, comprensión de reglas operativas
+            y trabajo directo con las personas que utilizan el sistema.
+          </p>
+        </div>
+        <div class="profile-grid">
+          <article class="profile-card" data-reveal>
+            <span class="card-number">01 · DESCUBRIR</span>
+            <h3>Analizar el proceso</h3>
+            <p>Escuchar al usuario, identificar el problema y entender datos, restricciones y reglas del negocio.</p>
+          </article>
+          <article class="profile-card" data-reveal>
+            <span class="card-number">02 · RESOLVER</span>
+            <h3>Diseñar e integrar</h3>
+            <p>Construir módulos, conectar flujos y automatizar tareas con una lógica consistente.</p>
+          </article>
+          <article class="profile-card" data-reveal>
+            <span class="card-number">03 · ACOMPAÑAR</span>
+            <h3>Capacitar y dar soporte</h3>
+            <p>Explicar funcionalidades, atender incidencias y validar que la solución sea utilizable en la operación.</p>
+          </article>
+          <article class="profile-card" data-reveal>
+            <span class="card-number">04 · EVOLUCIONAR</span>
+            <h3>Medir y mejorar</h3>
+            <p>Depurar consultas y reglas, revisar resultados y ajustar el software según su uso real.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section section-soft" aria-labelledby="proyectos-titulo">
+      <div class="container">
+        <div class="section-heading section-heading-row" data-reveal>
+          <div>
+            <p class="eyebrow">TRABAJO DOCUMENTADO</p>
+            <h2 id="proyectos-titulo">Casos de estudio y evidencias reales.</h2>
+            <p>Dos proyectos que muestran desarrollo, datos, implementación y trabajo con usuarios.</p>
+          </div>
+          <a class="text-link" href="./projects/index.html">Explorar proyectos →</a>
+        </div>
+        <div class="project-grid home-project-grid">
+          <a class="project-card project-card-featured" href="./projects/jcb/" data-reveal aria-label="Ver el caso de estudio ERP JCB Azteca">
             <div class="project-card-top">
-              <span class="project-status">Experiencia profesional</span>
+              <span class="project-status">Experiencia profesional · 2024–2026</span>
               <span class="project-index">01</span>
             </div>
-            <div class="project-icon project-icon-logo" aria-hidden="true"><img class="project-card-logo" src="./projects/jcb/icono/JCB-Logo.png" alt="" /></div>
+            <div class="project-visual">
+              <img src="./projects/jcb/evidence/Agenda Reporte de Mantenimiento.png" alt="Pantalla del reporte de mantenimiento en el ERP JCB Azteca" loading="lazy">
+              <span>Captura de sistema</span>
+            </div>
             <h3>ERP JCB AZTECA</h3>
             <p>
-              Plataforma ERP para servicios, almacén, ventas y administración,
-              con desarrollo de módulos, soporte técnico, capacitación de usuarios, migración de datos, dashboards, APIs y operación en producción.
+              Desarrollo y evolución de un ERP para servicios, inventarios, ventas y administración.
+              Incluyó automatización de mantenimientos, correcciones de lógica, migración de datos,
+              dashboards, soporte y capacitación de usuarios.
             </p>
+            <div class="project-outcome"><strong>Aportación clave:</strong> reportes de mantenimiento desde el ERP con un botón y más de 200,000 registros migrados.</div>
             <div class="project-tags">
-              <span>PHP</span><span>Laravel</span><span>JavaScript</span><span>SQL</span>
+              <span>PHP</span><span>Laravel</span><span>JavaScript</span><span>MySQL</span><span>APIs REST</span>
             </div>
-            <span class="project-link">Ver caso de estudio →</span>
+            <span class="project-link">Ver evidencias del ERP →</span>
           </a>
 
-          <a class="project-card" href="./projects/iacow/">
+          <a class="project-card" href="./projects/iacow/" data-reveal aria-label="Ver el caso de estudio IACOW">
             <div class="project-card-top">
-              <span class="project-status">Proyecto destacado</span>
+              <span class="project-status">Proyecto de innovación · 2024</span>
               <span class="project-index">02</span>
             </div>
-            <div class="project-icon project-icon-logo project-icon-iacow" aria-hidden="true"><img class="project-card-logo" src="./projects/iacow/icono/icon_login.jpg" alt="" /></div>
+            <div class="project-visual">
+              <img src="./projects/iacow/evidence/Motor de comparador de diseño de fierros ganaderos.png" alt="Interfaz del comparador visual de diseños de fierros ganaderos en IACOW" loading="lazy">
+              <span>Captura de sistema</span>
+            </div>
             <h3>IACOW</h3>
             <p>
-              Sistema de gestión ganadera con Django, PostgreSQL y procesamiento
-              de imágenes para comparación visual.
+              Sistema web para la Asociación Ganadera Local de Macuspana: gestión de socios,
+              importación y comparación visual de diseños de fierros, credenciales automatizadas
+              y capacitación para su uso.
             </p>
+            <div class="project-outcome"><strong>Aportación clave:</strong> procesamiento de más de 2,000 diseños y presentación en la etapa nacional de INNOVATECNM 2024.</div>
             <div class="project-tags">
-              <span>Python</span><span>Django</span><span>PostgreSQL</span>
+              <span>Python</span><span>Django</span><span>PostgreSQL</span><span>Imágenes</span>
             </div>
-            <span class="project-link">Ver caso de estudio →</span>
-          </a>
-
-          <a data-reveal class="project-card project-card-muted" href="./projects/template/">
-            <div class="project-card-top">
-              <span class="project-status">En desarrollo</span>
-              <span class="project-index">03</span>
-            </div>
-            <div class="project-icon project-icon-new" aria-hidden="true"><span>+</span></div>
-            <h3>Nuevo proyecto</h3>
-            <p>
-              Plantilla para documentar futuros desarrollos personales,
-              experimentos y nuevas tecnologías.
-            </p>
-            <div class="project-tags">
-              <span>React</span><span>TypeScript</span><span>Laravel</span>
-            </div>
-            <span class="project-link">Ver plantilla →</span>
+            <span class="project-link">Ver evidencias de IACOW →</span>
           </a>
         </div>
       </div>
     </section>
 
-    <section class="section container" data-reveal>
+    <section id="especialidad" class="section container" aria-labelledby="especialidad-titulo" data-reveal>
       <div class="section-heading">
-        <p class="eyebrow">STACK</p>
-        <h2>Tecnologías y herramientas</h2>
+        <p class="eyebrow">CAPACIDADES TÉCNICAS</p>
+        <h2 id="especialidad-titulo">Tecnologías al servicio de los procesos.</h2>
+        <p>Combino desarrollo de aplicaciones, bases de datos, integraciones y herramientas de operación.</p>
       </div>
-
       <div class="stack-grid">
-        <div class="stack-group" data-reveal>
-          <span class="stack-label">Frontend</span>
-          <div class="stack-items"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>TypeScript</span><span>Bootstrap</span></div>
+        <div class="stack-group">
+          <span class="stack-label">Backend e APIs</span>
+          <div class="stack-items"><span>PHP</span><span>Laravel</span><span>Python</span><span>Django</span><span>REST / JSON</span></div>
         </div>
-        <div class="stack-group" data-reveal>
-          <span class="stack-label">Backend</span>
-          <div class="stack-items"><span>PHP</span><span>Python</span><span>Django</span><span>Laravel</span><span>Phalcon</span><span>REST/JSON</span></div>
+        <div class="stack-group">
+          <span class="stack-label">Web</span>
+          <div class="stack-items"><span>JavaScript</span><span>HTML</span><span>CSS</span><span>Bootstrap</span><span>React</span><span>TypeScript</span></div>
         </div>
-        <div class="stack-group" data-reveal>
+        <div class="stack-group">
           <span class="stack-label">Datos</span>
-          <div class="stack-items"><span>MySQL</span><span>PostgreSQL</span><span>SQLite</span><span>MariaDB</span><span>XML</span></div>
+          <div class="stack-items"><span>MySQL</span><span>PostgreSQL</span><span>MariaDB</span><span>SQLite</span><span>SQL</span><span>XML / CFDI</span></div>
         </div>
-        <div class="stack-group" data-reveal>
-          <span class="stack-label">Herramientas</span>
-          <div class="stack-items"><span>Git</span><span>GitHub</span><span>PDF</span><span>Automatización</span><span>IA aplicada</span></div>
+        <div class="stack-group">
+          <span class="stack-label">Operación</span>
+          <div class="stack-items"><span>ERP</span><span>Automatización PDF</span><span>Dashboards / KPIs</span><span>Git / GitHub</span><span>Soporte</span><span>Capacitación</span></div>
+        </div>
+      </div>
+      <p class="stack-note">
+        <strong>Contexto:</strong> mi experiencia profesional incluye los ERP, integraciones, datos y soporte;
+        continúo desarrollando proyectos con React, TypeScript y nuevas arquitecturas.
+        Distingo los aprendizajes actuales de las implementaciones empresariales que ya he realizado.
+      </p>
+    </section>
+
+    <section class="section container now-section" aria-labelledby="rumbo-titulo" data-reveal>
+      <div class="now-panel">
+        <div>
+          <p class="eyebrow">EVOLUCIÓN PROFESIONAL</p>
+          <h2 id="rumbo-titulo">Profundizando en datos, automatización e IA aplicada.</h2>
+          <p>
+            Mi siguiente etapa se enfoca en ingeniería de datos, arquitectura de software
+            e integración de inteligencia artificial en soluciones útiles. Mantengo una base
+            práctica: analizar, construir, probar y validar.
+          </p>
+        </div>
+        <div class="now-tags" aria-label="Áreas de especialización en desarrollo">
+          <span>Ingeniería de datos</span>
+          <span>Automatización</span>
+          <span>IA aplicada</span>
+          <span>Arquitectura modular</span>
         </div>
       </div>
     </section>
 
-    <section id="contacto" class="section contact-section" data-reveal>
+    <section id="contacto" class="section contact-section" aria-labelledby="contacto-titulo" data-reveal>
       <div class="container contact">
         <div>
           <p class="eyebrow">CONTACTO</p>
-          <h2>¿Hablamos de una oportunidad?</h2>
-          <p>Disponible para oportunidades profesionales, colaboración y nuevos proyectos.</p>
+          <h2 id="contacto-titulo">¿Buscas a alguien que entienda el proceso y construya la solución?</h2>
+          <p>
+            Estoy abierto a oportunidades en desarrollo backend, sistemas empresariales,
+            integraciones, automatización y proyectos orientados a datos.
+          </p>
         </div>
         <div class="contact-actions">
-          <a class="button button-primary" href="mailto:renzonago09@gmail.com">renzonago09@gmail.com</a>
+          <a class="button button-primary" href="mailto:renzonago09@gmail.com">Escribirme por correo ↗</a>
+          <a class="button button-secondary" href="https://www.linkedin.com/in/renzo-narvaez" target="_blank" rel="noopener noreferrer">Conectar en LinkedIn ↗</a>
           <a class="button button-secondary" href="./assets/docs/CV-Renzo-Narvaez-Gonzalez.pdf" download>Descargar CV ↓</a>
-          <a class="button button-secondary" href="https://www.linkedin.com/in/renzo-narvaez" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
         </div>
       </div>
     </section>
@@ -226,8 +305,8 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <span>© <span id="year"></span> Renzo Narváez González</span>
-      <span>Portafolio técnico</span>
+      <span>© <span id="year">2026</span> Renzo Narváez González</span>
+      <span>Ingeniería aplicada a procesos reales · Villahermosa, Tabasco</span>
     </div>
   </footer>
 
