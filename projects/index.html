@@ -3,75 +3,147 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Proyectos | Renzo Narváez González</title>
+  <meta name="theme-color" content="#07111F">
+  <meta name="description" content="Proyectos de Renzo Narváez González: ERP JCB Azteca e IACOW. Casos de estudio de automatización, sistemas empresariales, datos y capacitación con evidencias de desarrollo.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Proyectos | Renzo Narváez González">
+  <meta property="og:description" content="Dos casos de estudio con problemas reales, soluciones construidas y evidencias técnicas: ERP JCB Azteca e IACOW.">
+  <meta property="og:url" content="https://renzonago.github.io/site/projects/">
+  <link rel="canonical" href="https://renzonago.github.io/site/projects/">
+  <title>Proyectos y casos de estudio | Renzo Narváez González</title>
   <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/projects.css">
+  <noscript><style>[data-reveal]{opacity:1;transform:none;filter:none}</style></noscript>
 </head>
-<body>
+<body class="projects-page">
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="../index.html" aria-label="Inicio">RN<span>G</span></a>
+      <a class="brand" href="../index.html" aria-label="Inicio de Renzo Narváez">RN<span>G</span></a>
       <nav class="nav-links" aria-label="Navegación principal">
         <a class="nav-link" href="../index.html">Inicio</a>
-        <a class="nav-link active" href="./index.html">Proyectos</a>
+        <a class="nav-link active" href="./index.html" aria-current="page">Proyectos</a>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section class="section container">
-      <div class="section-heading">
-        <p class="eyebrow">PORTAFOLIO</p>
-        <h1>Proyectos</h1>
-        <p class="hero-text">
-          Casos de estudio con el problema abordado, mi participación, las soluciones implementadas y evidencia visual.
+  <main id="contenido">
+    <section class="container projects-hero" aria-labelledby="proyectos-titulo">
+      <div>
+        <a class="projects-breadcrumb" href="../index.html">← Inicio <span>/</span> Portafolio</a>
+        <p class="eyebrow">PORTAFOLIO · EXPERIENCIA DOCUMENTADA</p>
+        <h1 id="proyectos-titulo">Software que resuelve <span>problemas reales.</span></h1>
+        <p class="projects-lead">
+          Estos proyectos muestran algo más que interfaces: el problema que encontré,
+          las decisiones técnicas, las soluciones implementadas y las personas que las utilizan.
+          Cada caso incluye capturas, resultados y evidencia del trabajo realizado.
+        </p>
+        <div class="projects-hero-facts" aria-label="Resumen de proyectos">
+          <div class="projects-hero-fact"><strong>02</strong><span>casos de estudio</span></div>
+          <div class="projects-hero-fact"><strong>52</strong><span>evidencias documentadas</span></div>
+        </div>
+      </div>
+      <aside class="projects-index-panel" aria-label="Navegación entre proyectos">
+        <span class="projects-index-label">EXPLORAR CASOS</span>
+        <a href="#jcb">
+          <span class="index-number">01</span>
+          <span><strong>ERP JCB Azteca</strong><small>Software empresarial · 2024–2026</small></span>
+          <span class="projects-index-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a href="#iacow">
+          <span class="index-number">02</span>
+          <span><strong>IACOW</strong><small>Gestión ganadera · 2024</small></span>
+          <span class="projects-index-arrow" aria-hidden="true">↗</span>
+        </a>
+      </aside>
+    </section>
+
+    <section class="projects-section" aria-labelledby="casos-titulo">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">CASOS DE ESTUDIO</p>
+          <h2 id="casos-titulo">Del análisis al resultado.</h2>
+          <p>Dos contextos diferentes, un mismo principio: entender la operación y construir soluciones verificables.</p>
+        </div>
+
+        <div class="showcase-stack">
+          <article id="jcb" class="showcase-card showcase-card--jcb" aria-labelledby="jcb-title">
+            <a class="showcase-image" href="./jcb/" aria-label="Ver las evidencias del ERP JCB Azteca">
+              <img src="./jcb/evidence/Agenda Reporte de Mantenimiento.png" loading="lazy" alt="Interfaz del ERP JCB Azteca mostrando el reporte de mantenimiento">
+              <span class="showcase-image-label">
+                <img src="./jcb/icono/JCB-Logo.png" alt="" loading="lazy">
+                <span>Capturas reales del sistema</span>
+              </span>
+            </a>
+            <div class="showcase-copy">
+              <div class="showcase-eyebrow"><span>01</span><span>Experiencia profesional</span><span>2024–2026</span></div>
+              <h3 id="jcb-title">ERP JCB AZTECA</h3>
+              <p class="showcase-summary">
+                Evolución de una plataforma ERP para servicios, almacén, ventas y administración.
+                Mi trabajo abarcó análisis de procesos, desarrollo Full Stack, integridad de datos,
+                soporte en producción y capacitación del personal.
+              </p>
+              <ul class="showcase-highlights">
+                <li><span><strong>Mantenimientos digitalizados:</strong> tickets, agenda, técnicos, refacciones y evidencias integrados para generar el reporte PDF con un botón.</span></li>
+                <li><span><strong>Inventario y datos:</strong> corrección de lógica e históricos; depuración y migración de más de 200,000 registros empresariales.</span></li>
+                <li><span><strong>Operación diaria:</strong> dashboards, integraciones, atención de incidencias y acompañamiento a usuarios.</span></li>
+              </ul>
+              <div class="showcase-technology" aria-label="Tecnologías en JCB">
+                <span>PHP</span><span>Laravel</span><span>JavaScript</span><span>MySQL</span><span>APIs REST</span>
+              </div>
+              <a class="showcase-link" href="./jcb/">Explorar caso de estudio <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article id="iacow" class="showcase-card showcase-card--iacow" aria-labelledby="iacow-title">
+            <a class="showcase-image" href="./iacow/" aria-label="Ver las evidencias de IACOW">
+              <img src="./iacow/evidence/Motor de comparador de diseño de fierros ganaderos.png" loading="lazy" alt="Interfaz del motor de comparación visual de fierros ganaderos en IACOW">
+              <span class="showcase-image-label">
+                <img src="./iacow/icono/icon_login.jpg" alt="" loading="lazy">
+                <span>Capturas reales del sistema</span>
+              </span>
+            </a>
+            <div class="showcase-copy">
+              <div class="showcase-eyebrow"><span>02</span><span>Proyecto de innovación</span><span>2024</span></div>
+              <h3 id="iacow-title">IACOW</h3>
+              <p class="showcase-summary">
+                Sistema web para la Asociación Ganadera Local de Macuspana.
+                Centraliza la gestión de socios y facilita el trabajo con diseños
+                de fierros ganaderos, credenciales y actividades administrativas.
+              </p>
+              <ul class="showcase-highlights">
+                <li><span><strong>Procesamiento de imágenes:</strong> importación y comparación visual de más de 2,000 diseños de fierros ganaderos.</span></li>
+                <li><span><strong>Automatización administrativa:</strong> configuración, generación e impresión de credenciales, con capacitación a usuarios.</span></li>
+                <li><span><strong>Reconocimiento:</strong> presentación de IACOW en la etapa nacional de INNOVATECNM 2024.</span></li>
+              </ul>
+              <div class="showcase-technology" aria-label="Tecnologías en IACOW">
+                <span>Python</span><span>Django</span><span>PostgreSQL</span><span>Procesamiento de imágenes</span>
+              </div>
+              <a class="showcase-link" href="./iacow/">Explorar caso de estudio <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+        <p class="showcase-footnote">
+          Las evidencias documentan funcionalidades, procesos y participación profesional.
+          No se publica el código privado ni información confidencial de las organizaciones.
         </p>
       </div>
+    </section>
 
-      <div class="project-grid project-list-grid">
-        <a class="project-card project-card-featured" href="./jcb/">
-          <div class="project-card-top">
-            <span class="project-status">Experiencia profesional</span>
-            <span class="project-index">01</span>
-          </div>
-          <div class="project-icon project-icon-logo" aria-hidden="true">
-            <img class="project-card-logo" src="./jcb/icono/JCB-Logo.png" alt="" />
-          </div>
-          <h3>ERP JCB AZTECA</h3>
-          <p>ERP empresarial: mantenimientos con reportes PDF en un botón, integridad de inventarios, migración de +200,000 registros y soporte a usuarios.</p>
-          <span class="project-link">Ver caso de estudio →</span>
-        </a>
-
-        <a class="project-card" href="./iacow/">
-          <div class="project-card-top">
-            <span class="project-status">Proyecto destacado</span>
-            <span class="project-index">02</span>
-          </div>
-          <div class="project-icon project-icon-logo project-icon-iacow" aria-hidden="true">
-            <img class="project-card-logo" src="./iacow/icono/icon_login.jpg" alt="" />
-          </div>
-          <h3>IACOW</h3>
-          <p>Sistema de gestión ganadera con importación y comparación visual de +2,000 diseños, credenciales y capacitación de usuarios.</p>
-          <span class="project-link">Ver caso de estudio →</span>
-        </a>
-
-        <a class="project-card project-card-muted" href="./template/">
-          <div class="project-card-top">
-            <span class="project-status">En desarrollo</span>
-            <span class="project-index">03</span>
-          </div>
-          <div class="project-icon project-icon-new" aria-hidden="true"><span>+</span></div>
-          <h3>Nuevo proyecto</h3>
-          <p>Plantilla reservada para documentar futuros proyectos personales y pruebas técnicas.</p>
-          <span class="project-link">Ver plantilla →</span>
-        </a>
+    <section class="projects-method" aria-labelledby="metodologia-titulo">
+      <div class="container projects-method-inner">
+        <div>
+          <h2 id="metodologia-titulo">No sólo muestro lo que desarrollé: explico para qué sirvió.</h2>
+          <p>Cada caso reúne contexto, implementación y evidencia para que puedas evaluar mi participación técnica de forma concreta.</p>
+        </div>
+        <a class="projects-method-link" href="https://github.com/RenzoNaGo" target="_blank" rel="noopener noreferrer">Conocer mi perfil de GitHub ↗</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <span>© <span id="year"></span> Renzo Narváez González</span>
-      <a href="../index.html">Volver al inicio</a>
+    <div class="container footer-inner">
+      <span>© <span id="year">2026</span> Renzo Narváez González</span>
+      <a href="../index.html">Volver al inicio ↗</a>
     </div>
   </footer>
 
